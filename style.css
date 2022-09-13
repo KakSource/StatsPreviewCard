@@ -1,0 +1,74 @@
+*,
+::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+html,
+body {
+  box-sizing: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  margin-top: 175px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(37, 11, 70);
+}
+
+.left {
+  width: 450px;
+  height: 450px;
+  background-color: rgb(37, 11, 70);
+  color: white;
+  text-align: center;
+  padding: 35px;
+}
+
+.left h1 {
+  padding: 15px;
+  font-size: 36px;
+  background-color: rgb(37, 11, 70);
+}
+
+.left b {
+  color: rgb(186, 130, 238);
+  background-color: rgb(37, 11, 70);
+}
+
+.left p {
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-right: 28px;
+  color: rgb(216, 215, 215);
+  background-color: rgb(37, 11, 70);
+}
+
+.container-contadores {
+  display: flex;
+  margin-top: 80px;
+  margin-left: 12px;
+  margin-right: 50px;
+  width: 330px;
+  flex-direction: inherit;
+  background-color: rgb(37, 11, 70);
+}
+
+.contadores {
+  width: 20%;
+  margin: 5px;
+  text-align: left;
+}
+
+.right {
+  width: 450px;
+  height: 450px;
+  border-radius: 5px;
+}
